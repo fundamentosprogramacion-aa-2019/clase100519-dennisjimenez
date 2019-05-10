@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejodowhile;
+package ciclodowhile;
+
+import java.util.Scanner;
 
 /**
  *
@@ -16,9 +18,10 @@ public class CicloDos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
         int contador = 1;
         String cadena = "";
-        int tabla = 10;
+        int tabla = 8;
         String cadenaTmp = "";
         do{ 
             int valor = contador * tabla;

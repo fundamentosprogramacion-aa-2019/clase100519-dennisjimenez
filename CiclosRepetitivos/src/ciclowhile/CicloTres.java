@@ -9,23 +9,23 @@ package ciclowhile;
  *
  * @author reroes
  */
-public class CicloDos {
+public class CicloTres {
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int limite = 10;
+        int limite = 5;
         int contador = 1;
         int suma = 0;
+        System.out.printf("%s","La suma de:\n");
         while (contador <= limite){
             suma = suma + contador;
-            System.out.printf("Contador %d\n", contador);
+            System.out.printf("%d\n", contador);
             contador = contador + 1;
         }
-        
-        System.out.printf("La suma final es %d\n", suma);
-        
+        System.out.printf("Tiene un resultado de: %d\n", suma);
+               
     }
 }
